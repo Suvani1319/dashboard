@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 # MongoDB setup
-client = MongoClient("mongodb+srv://lekya:1234567890@cluster0.dnmvp.mongodb.net/")
+client = MongoClient("mongodb+srv://garinesuvani:garinesuvani@cluster0.2nx0y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client['makeskilled']
 collection = db['iotdata-test']
 alertsCollection = db['alerts']
